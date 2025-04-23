@@ -39,19 +39,22 @@ We are pleased to announce that this project has been published in an IEEE confe
 ### Installation  
 If you have an NVIDIA graphics processor, you can activate GPU acceleration by installing the GPU requirements. Note that without GPU acceleration, the inference will run on the CPU, which can be very slow. 
 
-###Windows
+### Windows
 git clone https://github.com/itakurah/SittingPostureDetection.git
 python -m venv venv
 .\venv\scripts\activate.bat
-Default/NVIDIA GPU support:
+
+### Default/NVIDIA GPU support:
 pip install -r ./requirements_windows.txt OR pip install -r ./requirements_windows_gpu.txt
-Linux
+
+### Linux
 git clone https://github.com/itakurah/SittingPostureDetection.git
 python3 -m venv venv
 source venv/bin/activate
-Default/NVIDIA GPU support:
+### Default/NVIDIA GPU support:
 pip3 install -r requirements_linux.txt OR pip3 install -r requirements_linux_gpu.txt
-Run the program
+
+### Run the program
 python application.py <optional: model_file.pt> OR python3 application.py <optional: model_file.pt>
 
 The default model is loaded if no model file is specified.
