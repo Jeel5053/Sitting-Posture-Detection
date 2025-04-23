@@ -94,11 +94,7 @@ F1, Precision, Recall, and Precision-Recall plots:
 <img src="https://raw.githubusercontent.com/itakurah/SittingPostureDetection/main/data/images/PR_curve.png" width=40% height=40%>
 </p>
 
-# About
 
-This project was developed by [Niklas Hoefflin](https://github.com/itakurah), [Tim Spulak](https://github.com/T-Lak),
-Pascal Gerber & Jan Bösch. It was supervised by [André Jeworutzki](https://github.com/AndreJeworutzki) and Jan Schwarzer as part of the [Train Like A Machine](https://csti.haw-hamburg.de/project/TLAM/) module at Hamburg University of Applied Sciences (HAW Hamburg).
-The project is actively maintained by Niklas Hoefflin and Tim Spulak.
 
 # Sources
 
