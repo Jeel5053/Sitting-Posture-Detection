@@ -1,6 +1,6 @@
 import sys
 
-import qdarktheme
+import qdarktheme #
 from PyQt5.QtWidgets import QApplication
 
 from app_controllers.controller import Controller
