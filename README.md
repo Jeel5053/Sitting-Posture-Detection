@@ -39,27 +39,6 @@ We are pleased to announce that this project has been published in an IEEE confe
 ### Installation  
 If you have an NVIDIA graphics processor, you can activate GPU acceleration by installing the GPU requirements. Note that without GPU acceleration, the inference will run on the CPU, which can be very slow.  
 #### Windows  
-  
-1. `git clone https://github.com/itakurah/SittingPostureDetection.git`  
-2. `python -m venv venv`  
-3. `.\venv\scripts\activate.bat`  
-##### Default/NVIDIA GPU support:  
-4.  `pip install -r ./requirements_windows.txt` **OR** `pip install -r ./requirements_windows_gpu.txt`
-
-#### Linux  
-  
-1. `git clone https://github.com/itakurah/SittingPostureDetection.git`  
-2. `python3 -m venv venv`  
-3. `source venv/bin/activate`
-##### Default/NVIDIA GPU support:  
-4. `pip3 install -r requirements_linux.txt` **OR** `pip3 install -r requirements_linux_gpu.txt`
-
-
-### Run the program
-
-`python application.py <optional: model_file.pt>` **OR** `python3 application.py <optional: model_file.pt>`
-
-The default model is loaded if no model file is specified.
 
 # Model Information
 This project uses a custom-trained [YOLOv5s](https://github.com/ultralytics/yolov5/blob/79af1144c270ac7169553d450b9170f9c60f92e4/models/yolov5s.yaml) model fine-tuned on 160 images per class over 146 epochs. It categorizes postures into two classes:
